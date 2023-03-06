@@ -22,15 +22,15 @@ html {
 /* background carousel */
 
 .bg-img-1 {
-  background-image: url("/assets/images/01_section/img_studio_desk.jpg");
+  background-image: url("../assets/images/01_section/img_studio_desk.jpg");
 }
 
 .bg-img-2 {
-  background-image: url("/assets/images/01_section/img_studio_desk_2.jpg");
+  background-image: url("../assets/images/01_section/img_studio_desk_2.jpg");
 }
 
 .bg-img-3 {
-  background-image: url("/assets/images/01_section/img_studio_desk_3.jpg");
+  background-image: url("../assets/images/01_section/img_studio_desk_3.jpg");
 }
 
 .carousel-image {
