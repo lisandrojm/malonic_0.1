@@ -44,6 +44,8 @@ html {
   -o-transition: -o-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
   z-index: -1;
+  overflow-y: visible;
+  overflow-x: hidden;
 }
 
 /* header /////////////////////////////*/
