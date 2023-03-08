@@ -39,7 +39,8 @@ html {
   background-repeat: no-repeat;
   position: fixed;
   height: 100vh;
-  /*disables white flash*/
+  /* evitan el glitch del slider de bootstrap */
+  /* disables black  flash */
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
   -o-transition: -o-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
