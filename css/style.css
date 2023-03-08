@@ -39,6 +39,10 @@ html {
   background-repeat: no-repeat;
   position: fixed;
   height: 100vh;
+  /*disables white flash*/
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  -o-transition: -o-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
   z-index: -1;
 }
 
@@ -162,6 +166,7 @@ li :hover {
   opacity: 80%;
   transition: transform 0.3s; /* Animation */
   transform: scale(1.1);
+  -webkit-transition: none;
 }
 
 /* arrow_down movimiento scroll */
