@@ -41,9 +41,9 @@ html {
   height: 100vh;
   /* evitan el glitch del slider de bootstrap */
   /* disables black  flash */
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
-  -o-transition: -o-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  -o-transition: -o-transform 2s ease-in-out;
+  transition: transform 2s ease-in-out;
   z-index: -1;
   overflow-y: visible;
   overflow-x: hidden;
@@ -78,7 +78,8 @@ li :hover {
 
 /* article /////////////////////////////*/
 .article_02 {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
 }
 
 /* navbar /////////////////////////////*/
@@ -328,7 +329,9 @@ svg#icon-swipe #left {
 
 .footer {
   background-color: #48ac33;
+  background-color: rgba(71, 172, 51, 0.9);
   font-size: 0.8em;
+  backdrop-filter: blur(10px);
 }
 
 /* border top y border bottom del footer */
