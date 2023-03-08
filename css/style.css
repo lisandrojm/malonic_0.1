@@ -41,9 +41,9 @@ html {
   height: 100vh;
   /* evitan el glitch del slider de bootstrap */
   /* disables black  flash */
-  -webkit-transition: -webkit-transform 4s ease-in-out;
-  -o-transition: -o-transform 1s ease-in-out;
-  transition: transform 4s ease-in-out;
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  -o-transition: -o-transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
   z-index: -1;
   overflow-y: visible;
   overflow-x: hidden;
