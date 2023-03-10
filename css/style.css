@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* body /////////////////////////////*/
 
 .body {
@@ -315,6 +319,11 @@ svg#icon-swipe #left {
 
 /* 02_article_article_about_us /////////////////////////////*/
 .article_02 {
+  background-color: black;
+}
+
+/* 07_booking_contact_us /////////////////////////////*/
+.section_07 {
   background-color: black;
 }
 

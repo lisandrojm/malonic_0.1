@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="32.408px" height="32.408px" viewBox="0 0 32.408 32.408" enable-background="new 0 0 32.408 32.408" xml:space="preserve">
-<circle fill="#FFFFFF" cx="16.204" cy="16.204" r="16.204"/>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M16.203,11.206l0.001,9.994
-	"/>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21.202,16.203
-	l-4.998,4.999l-4.997-4.998"/>
+	 width="43px" height="43px" viewBox="0 0 43 43" style="enable-background:new 0 0 43 43;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#000000;stroke-width:2.6537;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<circle class="st0" cx="21.5" cy="21.5" r="21.5"/>
+<path class="st1" d="M21.5,14.9l0,13.3"/>
+<path class="st1" d="M28.1,21.5l-6.6,6.6l-6.6-6.6"/>
 </svg>
