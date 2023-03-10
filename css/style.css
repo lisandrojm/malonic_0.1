@@ -22,15 +22,15 @@ html {
 /* background carousel */
 
 .bg-img-1 {
-  background-image: url("../assets/images/01_section/img_studio_desk.jpg");
+  background-image: url("../assets/images/01_section_where_music__encabezado/01_section_studio_desk_1.jpg");
 }
 
 .bg-img-2 {
-  background-image: url("../assets/images/01_section/img_studio_desk_2.jpg");
+  background-image: url("../assets/images/01_section_where_music__encabezado/01_section_studio_desk_2.jpg");
 }
 
 .bg-img-3 {
-  background-image: url("../assets/images/01_section/img_studio_desk_3.jpg");
+  background-image: url("../assets/images/01_section_where_music__encabezado/01_section_studio_desk_3.jpg");
 }
 
 .carousel-image {
@@ -67,18 +67,12 @@ html {
   top: -600px;
 }
 
-li :hover {
+li a :hover {
   opacity: 60%;
 }
 
-/* section_1 */
-.section_01 {
-  height: 100vh;
-}
-
-/* article /////////////////////////////*/
-.article_02 {
-  background-color: black;
+a:hover {
+  opacity: 60%;
 }
 
 /* navbar /////////////////////////////*/
@@ -210,16 +204,6 @@ li :hover {
   }
 }
 
-.item img {
-  position: absolute;
-  object-fit: cover;
-  width: 100%;
-  top: 0;
-  left: 0;
-  min-height: 572px;
-  background: rgba(0, 0, 0, 0.7);
-}
-
 /* arrow scroll up - flecha scroll up */
 
 .arrow {
@@ -324,12 +308,40 @@ svg#icon-swipe #left {
   }
 }
 
+/* 01_section_where_music_encabezado */
+.section_01 {
+  height: 100vh;
+}
+
+/* 02_article_article_about_us /////////////////////////////*/
+.article_02 {
+  background-color: black;
+}
+
+/* 08_booking_contact_us /////////////////////////////*/
+.section_08 {
+  background-color: black;
+}
+.section_08-malonic {
+  color: #48ac33;
+}
+.form {
+  background-color: white;
+}
+.form-control::-webkit-input-placeholder {
+  color: black;
+}
+
+/* 09_section_map /////////////////////////////*/
+.section_09-map {
+  background-color: black;
+}
+
 /* footer /////////////////////////////*/
 
 .footer {
   background-color: #48ac33;
-  background-color: rgba(71, 172, 51, 0.9);
-  font-size: 0.8em;
+  font-size: 0.9em;
   backdrop-filter: blur(10px);
 }
 
@@ -346,5 +358,22 @@ svg#icon-swipe #left {
 @media (min-width: 768px) {
   .customBorder {
     border: none;
+  }
+}
+
+/* oculta y muestra los mapas*/
+@media (min-width: 377px) {
+  .section_09-map_mobile {
+    display: none;
+  }
+}
+@media (max-width: 377px) {
+  .section_09-map_desk {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  .footer {
+    font-size: 1em;
   }
 }
