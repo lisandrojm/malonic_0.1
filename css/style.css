@@ -341,7 +341,8 @@ svg#icon-swipe #left {
 
 .footer {
   background-color: #48ac33;
-  font-size: 0.9em;
+  background-color: rgba(71, 172, 51, 0.9);
+  font-size: 0.8em;
   backdrop-filter: blur(10px);
 }
 
