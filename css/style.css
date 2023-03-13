@@ -41,9 +41,9 @@ html {
   height: 100vh;
   /* evitan el glitch del slider de bootstrap */
   /* disables black  flash */
-  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  /*   -webkit-transition: -webkit-transform 0.5s ease-in-out;
   -o-transition: -o-transform 0.5s ease-in-out;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out; */
   z-index: -1;
   overflow-y: visible;
   overflow-x: hidden;
@@ -388,4 +388,16 @@ svg#icon-swipe #left {
   .footer {
     font-size: 1em;
   }
+}
+
+.carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
 }
