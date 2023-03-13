@@ -318,9 +318,16 @@ svg#icon-swipe #left {
   background-color: black;
 }
 
-/* 07_booking_contact_us /////////////////////////////*/
+/* 07_photo_gallery /////////////////////////////*/
 .section_07 {
   background-color: black;
+}
+.btn {
+  border: solid 2px #48ac33;
+}
+.btn:hover {
+  opacity: 70%;
+  border: solid 2px #378f26;
 }
 
 /* 08_booking_contact_us /////////////////////////////*/

@@ -70,6 +70,15 @@ document.addEventListener("click", function (e) {
 });
 
 /* fancybox */
+
+// Inicializar FancyBox
 Fancybox.bind("[data-fancybox]", {
-  // Your custom options
+  // Opciones de configuración
+});
+
+// Obtener el botón y agregarle el evento click
+const miBoton = document.getElementById("miBoton");
+miBoton.addEventListener("click", () => {
+  // Seleccionar el primer elemento de la galería y hacer clic en él
+  document.querySelector("#gallery-wrap [data-fancybox]").click();
 });
