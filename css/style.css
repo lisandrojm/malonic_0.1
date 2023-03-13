@@ -322,10 +322,10 @@ svg#icon-swipe #left {
 .section_07 {
   background-color: black;
 }
-.btn {
+.btn_custom {
   border: solid 2px #48ac33;
 }
-.btn:hover {
+.btn_custom:hover {
   opacity: 70%;
   border: solid 2px #378f26;
 }
