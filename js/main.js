@@ -68,3 +68,8 @@ document.addEventListener("click", function (e) {
     myModal.show();
   }
 });
+
+/* fancybox */
+Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+});
